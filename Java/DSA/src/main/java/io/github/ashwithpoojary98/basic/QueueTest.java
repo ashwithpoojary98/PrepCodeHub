@@ -27,14 +27,22 @@ public class QueueTest {
         System.out.println("----------------------");
         System.out.println("Priority Queue");
 
-        Queue<String> priorityQueue=new PriorityQueue<>();
+        Queue<String> priorityQueue = new PriorityQueue<>();
         priorityQueue.offer("b");
         priorityQueue.offer("a");
+        priorityQueue.offer("bb");
         priorityQueue.offer("aaa");
 
         System.out.println(priorityQueue);
 
-    
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+        System.out.println(priorityQueue.poll());
+
+
 
     }
 }
