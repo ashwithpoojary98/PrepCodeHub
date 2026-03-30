@@ -22,6 +22,10 @@ public class BSTSample1<T extends Comparable<T>>  {
         return root;
     }
 
+    public void delete(T data){
+        
+    }
+
 
     public void inOrder(){
        inOrder(root);
