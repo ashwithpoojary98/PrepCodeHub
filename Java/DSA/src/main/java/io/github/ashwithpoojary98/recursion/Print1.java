@@ -11,6 +11,8 @@ public class Print1 {
 
 
     public static void printRecu(int n,int start){
+
+        //base condition
         if(n==start) return;
 
         System.out.println(start);
