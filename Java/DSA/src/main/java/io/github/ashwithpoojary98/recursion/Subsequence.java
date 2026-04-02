@@ -10,7 +10,6 @@ public class Subsequence {
 
     public static void checkSubString(String value,int index,String currentString){
         if(index==value.length()){
-            System.out.println(currentString+" "+value+" "+index);
             return;
         }
         checkSubString(value, index+1, currentString+value.charAt(index));
