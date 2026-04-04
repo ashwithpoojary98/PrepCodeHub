@@ -5,6 +5,8 @@ public class FibMem {
     public static void main(String[] args) {
         int n=5;
         int[] mem=new int[n+1];
+
+        //n
         for(int i=0;i<=n;i++){
           mem[i]=-1;
         }
